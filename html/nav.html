@@ -1,13 +1,30 @@
 <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo right">Simple Book Library</a>
-          <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li  id="home-item">
-              <a>Home</a>
-            </li>
-            <li id="about-item">
-              <a>About</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo right">Simple Book Library</a>
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li >
+            <a id = "sidenav" href="#" data-activates="slide-out" ><i class=" medium material-icons">menu</i></a>
+        </li>
+      <li id="home-item">
+        <a>Home</a>
+      </li>
+      <li id="about-item">
+        <a>About</a>
+      </li>
+    
+    </ul>
+  </div>
+</nav>
+
+
+<ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+
+      <h5>Simple Library</h5>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>Add a Book</a></li>
+
+    <li><div class="divider"></div></li>
+
+    <li><a class="waves-effect" href="#!">Update a Book</a></li>
+  </ul>

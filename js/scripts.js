@@ -1,6 +1,7 @@
 
 w3.includeHTML();
 $(function () {
+    $("#sidenav").sideNav();
     $("#about").hide();
 
  
