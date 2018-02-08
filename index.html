@@ -40,13 +40,34 @@
     </ul>
 
   </div>
+  <div id="home" class="container center-align">
+
+      <div class="card">
+          <div class="card-image">
+              
+            <img class="responsive-img" src="https://savvybookwriters.files.wordpress.com/2013/11/library_pataskala_026.jpg">
+
+            <span class="card-title">A simple Library</span>
+          </div>
+          <div class="card-content">
+            <p>A simple Library that can store,edit,update,search book information</p>
+          </div>
+       
+      </div>
+
+  </div>
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script>
     $("#about").hide();
     $("#about-item").click(function () {
+      $("#home").hide();
       $("#about").show();
+    });
+    $("#home-item").click(function () {
+      $("#about").hide();
+      $("#home").show();
     });
   </script>
 </body>
